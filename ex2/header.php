@@ -47,5 +47,5 @@
 <body>
     <header>
         <h1>Welcome to My Website</h1>
-        <p>Your go-to source for web development tutorials</p>
+        <p>This Website contains the whole exercise set</p>
     </header>
