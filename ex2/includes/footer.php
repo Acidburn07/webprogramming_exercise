@@ -1,5 +1,5 @@
    <footer>
-        <p>&copy; 2025 Your Website. All rights reserved.</p>
+        <p>While this website is created for educational purposes in web programming.</p>
 
         <!-- Your footer content goes here -->
     </footer>
