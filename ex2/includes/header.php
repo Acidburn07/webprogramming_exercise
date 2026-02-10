@@ -20,37 +20,20 @@
         }
         ?>
 </title>
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
+    
+ main {
             padding: 20px;
             text-align: center;
+            flex: 1; /* This is the key for the footer */
         }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            text-align: center;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
+
     </style>
+    
 </head>
 <body>
-    <header>
-        .class="text"-center text-3xl font-bold underline;
-        <h1> Welcome to My Website</h1>
-        <p>This Website contains the whole exercise set</p>
-    </header>
+   <header class="bg-[#333] text-white p-10 text-center">
+    <h1 class="text-4xl font-bold">Welcome to My Website</h1>
+    <p class="mt-2 text-gray-300">This Website contains the whole exercise set</p>
+</header>
