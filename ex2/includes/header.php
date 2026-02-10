@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title><?php 
     echo $title; 
     ?> </title>
@@ -49,6 +50,7 @@
 </head>
 <body>
     <header>
+        .class="text"-center text-3xl font-bold underline;
         <h1> Welcome to My Website</h1>
         <p>This Website contains the whole exercise set</p>
     </header>
