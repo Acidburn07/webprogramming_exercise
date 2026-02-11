@@ -1,24 +1,22 @@
+<form method="post" action="">
+    Name: <input type="text" name="voter_name" required><br><br>
+    Age: <input type="number" name="voter_age" required><br><br>
+    <input type="submit" name="submit" value="Check Status">
+</form> 
+
 <?php
-    if (isset($_POST['check_voting'])) {
-        $name = htmlspecialchars($_POST['voter_name']);
-        $age = (int)$_POST['voter_age']; // Casting to integer for math
+// 2. Check if the form was submitted
+if (isset($_POST['submit'])) {
+    
+    // 3. Store inputs in variables
+    $name = $_POST['voter_name'];
+    $age = $_POST['voter_age'];
 
-        echo "<div class='mt-6 p-4 rounded-lg text-center border'>";
-
-        // The core If-Else logic
-        if ($age >= 18) {
-            echo "<h4 class='text-green-800 bg-green-100 p-3 rounded'>
-                    Hello $name, you are <strong>eligible</strong> to vote!
-                  </h4>";
-        } else {
-            $years_left = 18 - $age;
-            echo "<h4 class='text-red-800 bg-red-100 p-3 rounded'>
-                    Hello $name, you are <strong>not eligible</strong> to vote yet. 
-                    Wait $years_left more year(s).
-                  </h4>";
-        }
-
-        echo "</div>";
+    // 4. If-Else Logic
+    if ($age >= 18) {
+        echo "<h4>Hello $name, you are eligible to vote!</h4>";
+    } else {
+        echo "<h4>Hello $name, you are not eligible to vote.</h4>";
     }
-    ?>
-</section>
+}
+?>
