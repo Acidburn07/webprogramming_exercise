@@ -79,7 +79,27 @@
             </tbody>
         </table>
     </div>
-</div>
+    
+<section class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mt-10">
+    
+    <?php
+        // 1. Define the variables
+        $str1 = "Hello";
+        $str2 = "World";
+
+        $combined = $str1 . " " . $str2;
+
+    //Displying the combined string and its length
+        echo "<p class='text-lg'> <span class='font-mono font-bold text-blue-600'>$combined</span></p>";
+        
+        echo "<p class='text-lg mt-2 text-gray-600'>";
+        echo " <span class='font-bold'>" . strlen($combined) . "</span> characters.";
+        echo "</p>";
+    ?>
+</section>
+
+
+
 
 
 <?php
