@@ -78,3 +78,16 @@ if (isset($_POST['print_numbers'])) {
     }
 }
 ?>
+<br>
+
+<?php
+    // defining the array
+    $myarray = array("HTML", "CSS", "PHP", "JavaScript");
+
+ 
+    foreach ($myarray as $value) {
+        echo "$value ";
+    }
+
+    echo "</ul>";
+?>
