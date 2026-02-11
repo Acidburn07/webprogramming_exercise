@@ -20,3 +20,18 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
+<?php
+    // to get the current month
+    $month = date("F");
+
+    //Using switch case to check the month
+    switch ($month) {
+        case "August":
+            echo "It's August, so it's still holiday.";
+            break;
+
+        default:
+            echo "Not August, this is $month so I don't have any holidays.";
+            break;
+    }
+?>
