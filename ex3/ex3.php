@@ -99,8 +99,16 @@
 </section>
 
 
+<?php
+//Number Addition
+    $num1 = 298;
+    $num2 = 234;
+    $num3 = 46;
+    $sum = $num1 + $num2 + $num3;
 
+    echo "<p class='text-lg mt-6'>The sum of <span class='font-bold text-green-600'>$num1</span>, <span class='font-bold text-green-600'>$num2</span>, and <span class='font-bold text-green-600'>$num3</span> is <span class='font-bold text-green-600'>$sum</span>.</p>";
 
+?>
 
 <?php
 // Included the universal footer 
