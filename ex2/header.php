@@ -29,7 +29,7 @@
         <p class="mt-2 text-gray-300">This Website contains the whole exercise set</p>
     </header>
 
-    <?php include '../ex2/menubar.php'; ?>
+    <?php include __DIR__ . '/menubar.php'; ?>
 
     <div class="flex-layout">
         <aside class="hidden md:block">
