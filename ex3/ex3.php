@@ -109,6 +109,38 @@
     echo "<p class='text-lg mt-6'>The sum of <span class='font-bold text-green-600'>$num1</span>, <span class='font-bold text-green-600'>$num2</span>, and <span class='font-bold text-green-600'>$num3</span> is <span class='font-bold text-green-600'>$sum</span>.</p>";
 
 ?>
+<br>
+<section class="bg-gray-50 p-6 rounded-lg border border-gray-200 mt-10">
+    
+    <?php
+        // Accessing the predefined $_SERVER variable
+        $browser = $_SERVER['HTTP_USER_AGENT'];
+
+        // Displaying the browser information in a styled box
+        echo "<div class='p-4 bg-white border rounded shadow-inner font-mono text-xs text-purple-700 break-words'>";
+        echo $browser;
+        echo "</div>";
+    ?>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <?php
 // Included the universal footer 
