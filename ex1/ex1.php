@@ -42,6 +42,6 @@ $g3=5;
 </tr>
 </table>
 
-<img src="img1.png" alt="My Screenshot" width="auto" height="200px">
+<img src="image.png" alt="My Screenshot" width="auto" height="200px">
 </body>
 </html>

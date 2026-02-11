@@ -29,13 +29,13 @@
         <p class="mt-2 text-gray-300">This Website contains the whole exercise set</p>
     </header>
 
-    <?php include 'includes/menubar.php'; ?>
+    <?php include '../ex2/menubar.php'; ?>
 
     <div class="flex-layout">
         <aside class="hidden md:block">
             <h3 class="font-bold border-b border-gray-400 mb-4 text-gray-700">Quick Links</h3>
             <ul class="space-y-2 text-sm text-left">
-                <li><a href="https://github.com" target="_blank" class="text-blue-600 hover:underline">My GitHub</a></li>
+                <li><a href="https://github.com/Acidburn07" target="_blank" class="text-blue-600 hover:underline">My GitHub</a></li>
             </ul>
         </aside>
         

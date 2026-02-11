@@ -9,7 +9,8 @@
             <div class="flex space-x-4">
                 <a href="/ex2/index.php" class="text-gray-300 hover:text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition">Home</a>
                 
-                <a href="/phpTasks/ex1/ex1.php" class="text-gray-300 hover:text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition">Ex3</a>
+                <a href="/phpTasks/ex1/ex1.php" class="text-gray-300 hover:text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition">Ex1</a>
+                <a href="/phpTasks/ex3/ex3.php" class="text-gray-300 hover:text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition">Ex3</a>
                 
             </div>
 
