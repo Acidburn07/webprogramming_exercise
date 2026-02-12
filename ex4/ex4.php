@@ -66,14 +66,14 @@ if (isset($_POST['calc_table'])) {
 <?php
 if (isset($_POST['print_numbers'])) {
     $n = (int)$_POST['limit'];
-    $i = 1; // Start our counter at 1
+    $i = 1; 
 
     echo "<h4> $n </h4>";
 
     // the while loop
     while ($i <= $n) {
-        echo $i . " "; // Print the number and a space
-        $i++; // loop counter increment
+        echo $i . " "; 
+        $i++; 
     
     }
 }
