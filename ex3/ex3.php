@@ -41,7 +41,7 @@
     <div class 
 
 <?php
-    // Your variables from the snippet
+
     $g1 = 5;
     $g2 = 4;
     $g3 = 5;
