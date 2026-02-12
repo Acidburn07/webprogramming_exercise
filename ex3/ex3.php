@@ -1,6 +1,6 @@
 <?php
     $title = "Exercise 3 - User Information";
-    // Including universal layout
+    // Included universal layout
     include '../ex2/header.php'; 
 ?>
 
@@ -41,7 +41,7 @@
     <div class 
 
 <?php
-    // Your variables from the snippet
+    // Displaying the grades of 3 students in a table format
     $g1 = 5;
     $g2 = 4;
     $g3 = 5;

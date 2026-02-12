@@ -15,7 +15,7 @@
     </title>
 
     <style>
-        /* This keeps the sidebar and main content side-by-side */
+     
         body { display: flex; flex-direction: column; min-height: 100vh; margin: 0; }
         .flex-layout { display: flex; flex: 1; }
         aside { width: 250px; background-color: white; border-right: 1px solid #ddd; padding: 20px; }
